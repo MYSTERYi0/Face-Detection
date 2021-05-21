@@ -9,4 +9,3 @@
  The loops in the image is used to recognise various faces at once.
 
 The output of the image ahould be as such.
-!(C:\Users\Aryan Gupta\Desktop)
