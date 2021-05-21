@@ -9,4 +9,4 @@
  The loops in the image is used to recognise various faces at once.
 
 The output of the image ahould be as such.
-![](images/Output%20for%20images.png)
+![](images/Output for images.png)
