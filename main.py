@@ -5,17 +5,17 @@ Face detection Using Python
 import cv2
 
 # ________________________________________Detects the faces in an image______________________________________
+# Next line has address that is unique to everyone.... You can find the path by checking in venv\Lib\site-package
+facecascade = cv2.CascadeClassifier(r'C:\Users\Aryan Gupta\PycharmProjects\Image processing\venv\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml')
+faceimg = cv2.imread('venv/Scripts/Faces.jpg')
+faceimgresized = cv2.resize(faceimg, (500, 500))
+imggray = cv2.cvtColor(faceimgresized, cv2.COLOR_BGR2GRAY)
+face = facecascade.detectMultiScale(imggray)  # Detects the face features
+for (x, y, w, h) in face:  # for multiple faces
+    cv2.rectangle(faceimgresized, (x, y), (x + w, y + h), (0, 255, 0, 2))
 
-# facecascade = cv2.CascadeClassifier(r'C:\Users\Aryan Gupta\PycharmProjects\Image processing\venv\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml')
-# faceimg = cv2.imread('venv/Scripts/Faces.jpg')
-# faceimgresized = cv2.resize(faceimg, (500, 500))
-# imggray = cv2.cvtColor(faceimgresized, cv2.COLOR_BGR2GRAY)
-# face = facecascade.detectMultiScale(imggray)  # Detects the face features
-# for (x, y, w, h) in face:  # for multiple faces
-#     cv2.rectangle(faceimgresized, (x, y), (x + w, y + h), (0, 255, 0, 2))
-#
-# cv2.imshow('Face Output', faceimgresized)
-# cv2.waitKey(0)
+cv2.imshow('Face Output', faceimgresized)
+cv2.waitKey(0)
 
 # ____________________________Face detection using Video cam (Real time)_______________________________________
 cap = cv2.VideoCapture(0)  # Triggers the camera
