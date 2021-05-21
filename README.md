@@ -7,6 +7,3 @@
  
  Rest is the logic that will be help us in the py code. 
  The loops in the image is used to recognise various faces at once.
-
-The output of the image ahould be as such.
-![](images/Output for images.png)
