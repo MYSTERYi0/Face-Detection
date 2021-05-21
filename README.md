@@ -3,5 +3,5 @@
 
 ***You can see your face recognised by the web camera off the Laptop or computer.
 
->`<haarcascade_frontalface_default.xml>` is the .xml file that is going to help us for recognising the faces.
+`<haarcascade_frontalface_default.xml>` is the .xml file that is going to help us for recognising the faces.
 
