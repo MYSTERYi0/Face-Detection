@@ -19,7 +19,7 @@ The images taken in the input needs to be converted into B/W image since this wi
 
 ### >For Videos
 
-  *What is Video?
+  ** What is Video?
 
   --> Video is collection of images! The images when put together seems like a video.
 
