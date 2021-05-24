@@ -10,8 +10,14 @@ The images taken in the input needs to be converted into B/W image since this wi
  
  Rest is the logic that will be help us in the py code. 
  The loops in the image is used to recognise various faces at once.
+ 
+* Accepting Image input.
+* Converting it to B/W image.
+* Using `haarcascade_frontalface_default.xml` to recognize the face(s).
+* Performing operations using OpenCV.
+* Forming a rectangle aroung the face.
 
-### >For Videos:-
+### >For Videos
 
 **What is Video?
 
@@ -25,3 +31,4 @@ The same logic of the program will be used for video:
 * Using `haarcascade_frontalface_default.xml` to recognize the face(s).
 * Performing operations using OpenCV.
 * Forming a rectangle aroung the face.
+* Implementing a loop to apply the effects in each frame of the video.
