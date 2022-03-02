@@ -1,4 +1,4 @@
-# Face-Recognition ###
+# Face-Detection ###
 ## Basic Concepts and implementation of Face recognition using OpenCV in python 3.
 
 The images taken in the input needs to be converted into B/W image since this will help haarcascade recognize the images perfectly.
